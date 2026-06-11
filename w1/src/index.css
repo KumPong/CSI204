@@ -1,0 +1,9 @@
+/* 1. นำเข้าฟอนต์ Prompt จาก Google Fonts (ต้องวางไว้ใต้บรรทัด tailwindcss นะ) */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+/* 2. ใช้ฟีเจอร์ @theme ของ Tailwind v4 เพื่อตั้งเป็นฟอนต์หลัก */
+@theme {
+  --font-sans: 'Prompt', sans-serif;
+}
